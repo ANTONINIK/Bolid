@@ -91,6 +91,7 @@ export default {
   font-family: 'Noto Sans', sans-serif;
   color: #fff;
 }
+
 * {
   padding: 0px;
   margin: 0px;
@@ -106,6 +107,7 @@ hr {
   border: none;
   border-top: 2px solid #dae685;
 }
+
 .container {
   display: flex;
   flex-direction: column;
