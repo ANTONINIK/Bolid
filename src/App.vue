@@ -13,8 +13,8 @@
           <v-sensor
             :data="sensor"
             :highlighted="sensor.sensor_id === selectedSensor?.sensor_id"
-            @deleteSensor="deleteSensor"
             @editSensor="editSensor"
+            @deleteSensor="deleteSensor"
           />
         </div>
       </section>

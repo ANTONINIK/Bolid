@@ -1,7 +1,11 @@
 // V-Sensor - карточка датчика
 
 <template>
-  <div class="sensor" @click.stop="handleEdit" :class="{ sensor_active: highlighted }">
+  <div
+    class="sensor"
+    @click.stop="handleEdit"
+    :class="{ sensor_active: highlighted }"
+  >
     <div class="sensor__about">
       <dl class="about__list">
         <dt>Номер датчика</dt>
