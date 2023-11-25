@@ -1,4 +1,4 @@
-# bolid
+# Тестовое задание Bolid.ru
 
 ## Project setup
 ```
